@@ -1,7 +1,7 @@
 module.exports = class Node {
-	constructor(value = 0, prev = null, next = null) {
+	constructor(val = 0, prev = null, next = null) {
 		this.prev = previousNode
-		this.value = value
+		this.val = val
 		this.next = next
 	}
 }
